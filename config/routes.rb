@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get '/home', to: 'homepages#home'
+  root to: 'homepages#home'
 end
