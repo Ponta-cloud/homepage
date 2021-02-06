@@ -10,6 +10,20 @@
   </head>
 
   <body>
-    <%= yield %>
+  <header class="page-header">
+    <h1>
+      <%= link_to root_path do %>
+        <%= image_tag 'F56848EB-B5F4-4750-816E-E9CADDF4F1FA_4_5005_c.jpeg', class: "logo" %>
+      <% end %>
+    </h1>
+    <nav>
+      <ul class="main-nav">
+        <li><a href=#>何もなし</a></li>
+        <li><a href=#>何もなし</a></li>
+        <li><a href=#>何もなし</a></li>      
+      </ul>
+    </nav>
+  </header>  
+    <%= yield %>  
   </body>
 </html>
