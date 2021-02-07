@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Homepage3</title>
+    <title>守屋亮太</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,25 @@
   </head>
 
   <body>
-    <%= yield %>
+  <header class="page-header wrapper">
+    <h1>
+      <%= link_to root_path do %>
+        <%= image_tag 'F56848EB-B5F4-4750-816E-E9CADDF4F1FA_4_5005_c.jpeg', class: "logo" %>
+      <% end %>
+    </h1>
+    <nav>
+      <ul class="main-nav">
+        <li><a href=#>何もなし</a></li>
+        <li><a href=#>何もなし</a></li>
+        <li><a href=#>何もなし</a></li>      
+      </ul>
+    </nav>
+  </header>  
+  <div class="home-content wrapper">
+    <h2 class="page-title">Ryota Moriya</h2>
+    <p>守屋亮太の自己紹介ページを作成中</p>
+    <a class="button" href="#">メニューを見る</a>
+  </div>
+    <%= yield %>  
   </body>
 </html>
