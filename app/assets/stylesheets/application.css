@@ -35,11 +35,32 @@ img {
   max-width: 100%;
 }
 
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/****************************************
+    ボタン
+*****************************************/
+.button {
+  font-size: 1.375rem;
+  background-color: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+
+.button:hover {
+  background-color: #0090aa;
+}
+
 /****************************************
     header
 *****************************************/
 .logo {
-  width: 100px;
+  width: 70px;
   margin-top: 5px;
 }
 
@@ -66,4 +87,27 @@ img {
 
 .main-nav a:hover {
   color: #0bd;
+}
+
+/****************************************
+    home
+*****************************************/
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+
+/****************************************
+    見出し
+*****************************************/
+.page-title {
+  font-size: 5rem;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
