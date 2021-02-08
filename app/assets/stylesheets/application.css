@@ -111,3 +111,21 @@ img {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+/****************************************
+    大きな画像背景
+*****************************************/
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(4214721_m.jpg);
+  min-height: 100vh;
+}
+
+#home .page-title {
+  text-transform: none;
+}
