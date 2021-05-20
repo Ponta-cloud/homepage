@@ -10,17 +10,24 @@
   </head>
 
   <body>
-    <header>
-      <h1>プログラミン部</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="#">トップページ</a></li>
-        <li><a href="#">商品一覧</a></li>
-        <li><a href="#">ブログ</a></li>
-        <li><a href="#">お問い合わせ</a></li>
-      </ul>
-    </nav>
-    <%= yield %>  
+    <div id="wrapper">
+      <header>
+        <h1>
+          <a href="/">守屋亮太とは？</a>
+        </h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="/">トップページ</a></li>
+          <li><a href="#">商品一覧</a></li>
+          <li><a href="https://kyoto-kouryaku.com/">ブログ</a></li>
+          <li><a href="/contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+        <%= yield %>  
+      <footer>
+        <p>©2021 Moriya Ryota</p>
+      </footer>
+    </div>  
   </body>
 </html>

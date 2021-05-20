@@ -18,6 +18,13 @@
     共通部分
 *****************************************/
 
+#wrapper {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 html {
   font-size: 100%;
 }
@@ -47,8 +54,11 @@ header {
   padding-bottom: 65px;
 }
 
-header h1 {
+header h1  {
   text-align: center;
+}
+
+header h1 a {
   color: #8ae60a;
   font-size: 32.64px;
 }
@@ -85,11 +95,38 @@ nav li:hover {
   opacity: 0.8;
 }
 
-
 /****************************************
-    home
+    プロフィール
 *****************************************/
 
+.contents {
+  margin: 10px 30px;
+}
+
+.contents h2 {
+  text-align: left;
+  border-bottom: medium solid #8ae60a;
+}
+
+.contents h3 {
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.contents p {
+
+}
+
+/****************************************
+    footer
+*****************************************/
+
+footer {
+  text-align: center;
+  background-color: #8ae60a;
+  padding: 10px;
+  margin-top: 10px;
+}
 
 /****************************************
     見出し
