@@ -18,11 +18,8 @@
     共通部分
 *****************************************/
 
-#wrapper {
-  background-color: white;
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
+* { 
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 html {
@@ -35,6 +32,11 @@ a {
 
 body {
   line-height: 1.7;
+  color: #432;
+}
+
+img {
+  max-width: 100%;
 }
 
 
@@ -47,52 +49,64 @@ body {
     header
 *****************************************/
 
-header {
-  background-color: #defdb1;
-  margin-top: -20px;
-  padding-top: 65px;
-  padding-bottom: 65px;
+.page-header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
 }
 
-header h1  {
-  text-align: center;
+.main-nav {
+  text-align: right;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
 }
 
-header h1 a {
-  color: #8ae60a;
-  font-size: 32.64px;
+.main-nav li {
+  margin-left: 36px;
+  display: inline;
+}
+
+.main-nav a {
+  color: #432;
+}
+
+.main-nav a:hover {
+  color: #0bd;
 }
 
 /****************************************
-    nav
+    home
 *****************************************/
-nav {
+
+.home-content {
   text-align: center;
-  width: 100%;
-  background-color: #8ae60a;
-  margin-top: -22px;
+  margin-top: 10%;
 }
 
-nav ul {
-  margin: 0;
-  padding-top: 0;
-  font-size: 0;
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
 }
 
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  width: 10%;
-  font-size: 16px;
-  line-height: 30px;
+.page-title {
+  font-size: 5rem;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
-nav ul li a {
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
   color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
 }
 
-nav li:hover {
-  opacity: 0.8;
+.button:hover {
+  background: #0090aa;
 }
 
 /****************************************

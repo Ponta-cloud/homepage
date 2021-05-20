@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>守屋亮太</title>
+    <title>守屋亮太/Moriya Ryota</title>
+    <meta name="description" content="守屋亮太の自己紹介サイト">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <div id="wrapper">
-      <header>
-        <h1>
-          <a href="/">守屋亮太とは？</a>
-        </h1>
-      </header>
+    
+    <header class="page-header">
       <nav>
-        <ul>
-          <li><a href="/">トップページ</a></li>
-          <li><a href="#">商品一覧</a></li>
-          <li><a href="https://kyoto-kouryaku.com/">ブログ</a></li>
-          <li><a href="/contact">お問い合わせ</a></li>
+        <ul class="main-nav">
+          <li><a href="/">home</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="https://kyoto-kouryaku.com/">Blog</a></li>
+          <li><a href="/contact">contact</a></li>
         </ul>
       </nav>
-        <%= yield %>  
-      <footer>
-        <p>©2021 Moriya Ryota</p>
-      </footer>
-    </div>  
+    </header>
+      <%= yield %>  
+    <footer>
+      <p>©2021 Moriya Ryota</p>
+    </footer>
+
   </body>
 </html>
