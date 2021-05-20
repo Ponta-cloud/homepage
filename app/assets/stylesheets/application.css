@@ -18,6 +18,18 @@
     共通部分
 *****************************************/
 
+html {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  line-height: 1.7;
+}
+
 
 /****************************************
     ボタン
@@ -27,6 +39,51 @@
 /****************************************
     header
 *****************************************/
+
+header {
+  background-color: #defdb1;
+  margin-top: -20px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+header h1 {
+  text-align: center;
+  color: #8ae60a;
+  font-size: 32.64px;
+}
+
+/****************************************
+    nav
+*****************************************/
+nav {
+  text-align: center;
+  width: 100%;
+  background-color: #8ae60a;
+  margin-top: -22px;
+}
+
+nav ul {
+  margin: 0;
+  padding-top: 0;
+  font-size: 0;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  width: 10%;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav li:hover {
+  opacity: 0.8;
+}
 
 
 /****************************************
