@@ -135,7 +135,7 @@ img {
 
 .contents h2 {
   text-align: left;
-  border-bottom: medium solid #8ae60a;
+  border-bottom: medium solid #0bd;
 }
 
 .contents h3 {
@@ -153,7 +153,7 @@ img {
 
 footer {
   text-align: center;
-  background-color: #8ae60a;
+  background-color: #0bd;
   padding: 10px;
   margin-top: 10px;
 }
