@@ -18,6 +18,8 @@
     共通部分
 *****************************************/
 
+
+
 * { 
   font-family: 'Kosugi Maru', sans-serif;
 }
@@ -39,6 +41,29 @@ img {
   max-width: 100%;
 }
 
+/****************************************
+    モバイル共通部分
+*****************************************/
+
+@media (max-width: 600px) {
+  .home-content .page-title {
+    font-size: 2.5rem;
+  }
+
+  nav .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .main-nav li {
+    margin: 0 20px;
+  }
+
+  #home .home-content {
+    margin-top: 20%;
+  }
+
+}
 
 /****************************************
     ボタン
@@ -122,6 +147,8 @@ img {
 
 #home {
   background-image: url(/assets/suisyouhama.JPG);
+  background-color: white;
+  background-blend-mode: hard-light;
   min-height: 100vh;
 }
 
