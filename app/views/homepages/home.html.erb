@@ -26,11 +26,11 @@
       <div class="home-content wrapper">
         <h2 class="page-title">Moriya Ryota</h2>
         <p>ウェブサイト作ってみました</p>
-        <a class="button" href="#">進む</a>
+        <%= link_to 'プロフィールへ', root_path(anchor: 'point'), class: 'button' %>
       </div>
     </div>
     <div class="contents">
-      <h2>プロフィール</h2>
+      <h2 id="point">プロフィール</h2>
       <h3>自己紹介</h3>
       <p>立命館大学4回生の守屋亮太です。趣味でウェブサイトを制作してます。<br>
         大学4回生の1年間を最大限生かして、さまざまなことに挑戦していきます。  
