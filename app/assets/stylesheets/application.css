@@ -139,10 +139,10 @@ img {
     大きな画像
 *****************************************/
 
-.big-bg
+#home.big-big
 {
   background-size: cover;
-  background-position: center top;
+  background-position: 25% 75%;
   background-repeat: no-repeat;
 }
 
