@@ -14,7 +14,8 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
-
+//= require jquery 
+//= require jquery_ujs 
 
 $(function() {
   $('.btn-gNav').on("click", function(){
@@ -30,8 +31,4 @@ $(function() {
   $('.gNav-menu').on("click", function(){
      $('#gNav').removeClass('open');
   });
-});
-
-$(function() {
-  $('body').css('color','white');
 });
