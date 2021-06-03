@@ -14,3 +14,24 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+
+$(function() {
+  $('.btn-gNav').on("click", function(){
+
+    $(this).toggleClass('open');
+    $('#gNav').toggleClass('open');
+  });
+
+});
+
+// メニューをクリックされたら、非表示にする
+$(function() {
+  $('.gNav-menu').on("click", function(){
+     $('#gNav').removeClass('open');
+  });
+});
+
+$(function() {
+  $('body').css('color','white');
+});
