@@ -39,33 +39,7 @@ img {
   max-width: 100%;
 }
 
-/****************************************
-    モバイル共通部分
-*****************************************/
 
-@media (max-width: 600px) {
-  .home-content .page-title {
-    font-size: 2.5rem;
-  }
-
-  nav .main-nav {
-    font-size: 1rem;
-    margin-top: 10px;
-  }
-
-  .main-nav li {
-    margin: 0 20px;
-  }
-
-  #home .home-content {
-    margin-top: 20%;
-  }
-
-  #home .main-nav {
-    text-align: center;
-  }
-
-}
 
 /****************************************
     ボタン
@@ -131,7 +105,7 @@ img {
   right: -100%;
   width: 100%;
   height: 100%;
-  background: #444;
+  background: white;
   font-size: 16px;
   box-sizing: border-box;
   z-index: 2;
@@ -154,7 +128,7 @@ img {
   padding : 20px 30px;
 }
 #gNav .gNav-menu li a{
-  color: #ddd;
+  color: black;
   text-decoration: none;
 }
 
@@ -165,7 +139,6 @@ img {
 
 .home-content {
   text-align: center;
-  margin-top: 10%;
 }
 
 .home-content p {
@@ -274,6 +247,31 @@ footer {
   #gNav .gNav-menu li{
     padding-top: 5px;
   }
+}
+
+/****************************************
+    モバイル共通部分
+*****************************************/
+
+@media (max-width: 600px) {
+  .home-content .page-title {
+    font-size: 2.5rem;
+    margin-top: 100px;
+  }
+
+  nav .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .main-nav li {
+    margin: 0 20px;
+  }
+
+  #home .main-nav {
+    text-align: center;
+  }
+
 }
 /****************************************
     見出し
