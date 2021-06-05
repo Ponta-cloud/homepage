@@ -183,27 +183,7 @@ img {
   min-height: 100vh;
 }
 
-/****************************************
-    プロフィール
-*****************************************/
 
-.contents {
-  margin: 10px 30px;
-}
-
-.contents h2 {
-  text-align: left;
-  border-bottom: medium solid #0bd;
-}
-
-.contents h3 {
-  margin-top: 10px;
-  margin-bottom: -15px;
-}
-
-.contents p {
-
-}
 
 /****************************************
     footer

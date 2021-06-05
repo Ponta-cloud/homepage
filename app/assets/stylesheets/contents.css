@@ -1,0 +1,36 @@
+/****************************************
+    プロフィール
+*****************************************/
+
+.contents {
+  margin: 10px 30px;
+}
+
+.back_square {
+  margin-top: -60px;
+  background: rgb(80 229 255);
+  padding: 50px;
+  width: 60%;
+  overflow: hidden;
+  top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.contents h2 {
+  text-align: left;
+  font-size: 45px;
+  font-family: ｍｓ ゴシック,ms gothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka,sans-serif;
+  margin: 10px 0px 30px 20px;
+  font-weight: bold;
+}
+
+.contents h3 {
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.contents p {
+
+}
