@@ -18,7 +18,7 @@
     共通部分
 *****************************************/
 * { 
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: ｍｓ 明朝,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
 }
 
 html {
@@ -39,7 +39,9 @@ img {
   max-width: 100%;
 }
 
-
+p {
+  font-size: 1.1rem;
+}
 
 /****************************************
     ボタン
