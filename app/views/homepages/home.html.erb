@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>守屋亮太/Moriya Ryota</title>
     <meta name="description" content="守屋亮太の自己紹介サイト">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="icon" type="img/jpg" href="/assets/suisyouhama.JPG">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   </head>
   <body>
     <div id="home" class="big-big">
-      <header class="page-header">
-        <nav>
-          <ul class="main-nav">
-            <li><a href="/">home</a></li>
-            <li><a href="#"></a></li>
-            <li><a href="https://kyoto-kouryaku.com/">Blog</a></li>
-            <li><a href="/contact">contact</a></li>
+      <header id="hamburger">
+        <p class="btn-gNav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </p>        
+        <nav id="gNav" class="">
+          <ul class="gNav-menu">
+            <li><a href="/">HOME</a></li>
+            <li><a href="https://kyoto-kouryaku.com/">BLOG</a></li>
+            <li><a href="/contact">CONTACT</a></li>
           </ul>
         </nav>
       </header>
@@ -31,14 +36,17 @@
     </div>
     <div class="contents">
       <h2 id="point">プロフィール</h2>
-      <h3>自己紹介</h3>
-      <p>立命館大学4回生の守屋亮太です。趣味でウェブサイトを制作してます。<br>
+      <div class="back_square"></div>
+      <p>立命館大学4回生の守屋亮太です。趣味でウェブサイトを制作してます。
         大学4回生の1年間を最大限生かして、さまざまなことに挑戦していきます。  
+        このサイトは<span class="bold">RubyOnRails</span>を使用して作成されています。
       </p>
-      <h3>自己紹介</h3>
-      <p>
-      制作中
-      <p>
+      <div class="news-paper">
+        <p>国際ボランティアサークル<br>
+          フィリピン、インド、ネパール
+          プログラミングインターン
+        </p>
+      </div>
     </div>
     <footer>
       <p>©2021 Moriya Ryota</p>
