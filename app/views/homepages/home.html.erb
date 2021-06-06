@@ -7,6 +7,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -14,20 +15,37 @@
   </head>
   <body>
     <div id="home" class="big-big">
-      <header id="hamburger">
-        <p class="btn-gNav">
-          <span></span>
-          <span></span>
-          <span></span>
-        </p>        
-        <nav id="gNav" class="">
-          <ul class="gNav-menu">
-            <li><a href="/">HOME</a></li>
-            <li><a href="https://kyoto-kouryaku.com/">BLOG</a></li>
-            <li><a href="/contact">CONTACT</a></li>
-          </ul>
-        </nav>
-      </header>
+<!-- /#gloval-nav -->
+    <div id="nav-toggle">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="gloval-nav">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="page-header">
+      <nav>
+        <ul class="main-nav">
+          <li><a href="/">home</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="https://kyoto-kouryaku.com/">Blog</a></li>
+          <li><a href="/contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
       <div class="home-content wrapper">
         <h2 class="page-title">Moriya Ryota</h2>
         <p>ウェブサイト作ってみました</p>
@@ -51,6 +69,8 @@
     </div>
     <footer>
       <p>©2021 Moriya Ryota</p>
-    </footer>
+    </footer> 
+
+    
   </body>
 </html>
