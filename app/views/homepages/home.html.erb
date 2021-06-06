@@ -7,13 +7,14 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="icon" type="img/jpg" href="/assets/suisyouhama.JPG">
   </head>
   <body>
-    <div id="home" class="big-big">
+    <%# <div id="home" class="big-big">
       <header id="hamburger">
         <p class="btn-gNav">
           <span></span>
@@ -32,7 +33,7 @@
         <h2 class="page-title">Moriya Ryota</h2>
         <p>ウェブサイト作ってみました</p>
         <%= link_to 'プロフィールへ', root_path(anchor: 'point'), class: 'button' %>
-      </div>
+      <%# </div>
     </div>
     <div class="contents">
       <h2 id="point">プロフィール</h2>
@@ -51,6 +52,26 @@
     </div>
     <footer>
       <p>©2021 Moriya Ryota</p>
-    </footer>
+    </footer> %>
+    <div id="nav-toggle">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="gloval-nav">
+      <nav id="gNav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div><!-- /#gloval-nav -->
+
   </body>
 </html>

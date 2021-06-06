@@ -2,7 +2,7 @@
     プロフィール
 *****************************************/
 
-.contents {
+/* .contents {
   margin: 10px 30px;
 }
 
@@ -36,34 +36,33 @@
 
 .bold {
   font-weight: bold;
-}
+} */
 
 /****************************************
     ニュースペーパー
 *****************************************/
 
-.news-paper p{
+/* .news-paper p{
   font-size: 1.75rem;
-  font-weight: bold;
-}
+} */
 
 /****************************************
     スパン
 *****************************************/
 
-.black_span {
+/* .black_span {
   background: black;
   color: white;
 }
 
 .gray_span{
   background: #e0e0e0;
-}
+} */
 
 /****************************************
     メディアクエリ
 *****************************************/
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .contents p {
     width: 100%;
   }
@@ -71,4 +70,4 @@
   .news-paper p{
     font-size: 1.50rem;
   }
-}
+} */
