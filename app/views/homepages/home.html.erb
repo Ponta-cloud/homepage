@@ -12,6 +12,9 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="icon" type="img/jpg" href="/assets/suisyouhama.JPG">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   </head>
   <body>
     <div id="home" class="big-big">
@@ -64,10 +67,21 @@
           プログラミング教室
         </p>
       </div>
-      <div class="contents_jpeg">
-        <img class="philippines_jpeg" src="/assets/philippines.jpeg" alt="フィリピン 集合写真">
-      </div>
+      <h2 id="point">フォト</h2>
+      <div class="back_square"></div>
+      <div class="single-item">
+        <div class="b"><img class="nomal-jpeg" src="/assets/philippines.jpeg"></div>
+        <div class="b"><img class="school" src="/assets/class.jpeg"></div>
+        <div class="b"><img class="nomal-jpeg" src="/assets/suisyouhama.JPG"></div>
     </div>
+    </div>
+    <%# <h2 id="point">フォト</h2>
+    <div class="back_square"></div>
+    <div class="a">
+      <div class="b"><img class="c" src="/assets/philippines.jpeg"></div>
+      <div class="b"><img class="school" src="/assets/class.jpeg"></div>
+      <div class="b"><img class="c" src="/assets/suisyouhama.JPG"></div>
+    </div> %>
     <footer>
       <p>©2021 Moriya Ryota</p>
     </footer> 
