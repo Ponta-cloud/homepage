@@ -1,0 +1,6 @@
+---
+git: git version 2.30.1 (Apple Git-130)
+ruby: ruby 2.6.7p197 (2021-04-05 revision 67941) [x86_64-darwin20]
+rails: Rails 5.2.6
+ssh: ssh -p 43102 wandering-saito-5831@ssh-1.mc.lolipop.jp
+nodejs: "-"

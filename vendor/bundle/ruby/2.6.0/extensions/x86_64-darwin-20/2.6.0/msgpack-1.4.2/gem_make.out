@@ -1,5 +1,5 @@
 current directory: /Users/moriyaryouta/homepage3/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.2/ext/msgpack
-/Users/moriyaryouta/.rbenv/versions/2.6.6/bin/ruby -I /Users/moriyaryouta/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210204-73093-17381l.rb extconf.rb
+/Users/moriyaryouta/.rbenv/versions/2.6.7/bin/ruby -I /Users/moriyaryouta/.rbenv/versions/2.6.7/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210619-43372-4h6abm.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -28,16 +28,13 @@ compiling rbinit.c
 compiling rmem.c
 compiling unpacker.c
 compiling unpacker_class.c
-unpacker_class.c:137:1: warning: function 'raise_unpacker_error' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
-{
-^
 unpacker_class.c:225:14: warning: unused function 'Unpacker_peek_next_type' [-Wunused-function]
 static VALUE Unpacker_peek_next_type(VALUE self)
              ^
-2 warnings generated.
+1 warning generated.
 compiling unpacker_ext_registry.c
 linking shared-object msgpack/msgpack.bundle
 
 current directory: /Users/moriyaryouta/homepage3/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.2/ext/msgpack
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20210204-73093-h55y5b/msgpack
+/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20210619-43372-167rd3k/msgpack
