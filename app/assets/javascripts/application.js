@@ -18,13 +18,13 @@
 //= require jquery_ujs 
 
 
-$(function () {
+$(document).on('turbolinks:load', function() {
   $('#nav-toggle').on('click', function() {
     $('body').toggleClass('open');
   });
 });
 
-$(function() {
+$(document).on('turbolinks:load', function() {
   $('.single-item').slick({
       dots: true,
       autoplay: true,
